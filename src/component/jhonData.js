@@ -1,7 +1,7 @@
 const jhonData = {
-    "name": "John Deo.",
+    "name": "Ben Jenkins.",
     "name2": "Richard Tea.",
-    "name3": "Alexa Johnson",
+    "name3": "Alexa Benson",
     "role": "Visual Designer & Front-End Developer,",
     "ptext": "Creative Designer & Developer located in London.",
     "socialLinks":[
@@ -27,7 +27,7 @@ const jhonData = {
           }
       ],
       "aboutme": "About Me",
-      "aboutdetails": "I am Jhone Deo Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever It has survived not only five centuries, but also the leap into electronic but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing",
+      "aboutdetails": "I am Jhone Jenkins Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever It has survived not only five centuries, but also the leap into electronic but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing",
       "service":[
           {
             "id" : 1,

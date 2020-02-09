@@ -76,7 +76,7 @@ class PortfolioSlider extends Component {
                             <div className="portfolio_content">
                                 <a href="./"><img src={require('../../image/portfolio1.jpg')} alt=""/></a>
                                 <div className="text">
-                                    <a href="./"><h4>John Portfolio Logo</h4></a>
+                                    <a href="./"><h4>Ben Portfolio Logo</h4></a>
                                     <a href=".#">UI/UX Design</a>
                                 </div>
                             </div>

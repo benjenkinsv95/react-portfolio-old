@@ -10,7 +10,7 @@ class ServiceTwo extends Component{
                         <div className="col-lg-5">
                             <div className="service_content">
                                 <SectionTitleTwo stitle="What I do ?" btitle="Innovative solutions to grow your creative projects"/>
-                                <p>I’m John, a <span>visual designer</span> based in UK. I specialize in helping startups grow their businesses.</p>
+                                <p>I’m Ben, a <span>visual designer</span> based in UK. I specialize in helping startups grow their businesses.</p>
                                 <ul className="nav nav-tabs" id="myTab" role="tablist">
                                     <li className="nav-item">
                                         <a className="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">

@@ -8,7 +8,7 @@ is the file you need to edit to change the look of the
 theme.
 ---------------------------------------------------- */
 /*=====================================================================
-@Template Name: John
+@Template Name: Ben
 @Author: Dreemsthemes
 @Developed By: Rony
 @Developer URL: http://rocky.obaidul.com
@@ -21,17 +21,17 @@ Table of Content:
 03/ header
 04/ slider
 05/ photography
-06/ button 
-07/ work 
+06/ button
+07/ work
 08/ team
-09/ contact 
-10/ price 
-11/ portfolio 
-12/ blog 
-13/ sidebar  
-13/ page-header  
-13/ project  
-13/ we-dope  
+09/ contact
+10/ price
+11/ portfolio
+12/ blog
+13/ sidebar
+13/ page-header
+13/ project
+13/ we-dope
 13/ progress
 13/ comingsoon
 13/ error
@@ -1541,7 +1541,7 @@ h1, h2, h3, h4, h5, h6 {
   display: none;
 }
 .banner_shap{
-  clip-path: polygon(0 0, 100% 0, 100% 80%, 40% 100%, 0 80%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 100%, 0 100%);
 }
 .banner_shap_two:before{
   background: url(../../image/shap1.png) no-repeat scroll center bottom;
@@ -1955,7 +1955,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 50%;
   margin-left: -40px;
   bottom: 0;
-} 
+}
 .clients_intrigration .c_items:nth-child(7){
   right: 30px;
   bottom: 75px;

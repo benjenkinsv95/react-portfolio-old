@@ -1,6 +1,5 @@
 import React from 'react';
 import Navbar from './component/Navbar/Navbar';
-import Banner from './component/Banner/Banner';
 import RBanner from './component/Banner/RippleBanner';
 import About from './component/About';
 import Service from './component/Service';
@@ -13,10 +12,10 @@ import Skill from './component/Skill/Skill';
 import Footer from './component/Footer';
 import jhonData from './component/jhonData';
 
-export const Home6 = () => (
-  <div className="body_wrapper red_color">
+export const MyHome = () => (
+  <div className="body_wrapper">
     <Navbar mainlogo="logo2.png" stickylogo="logo.png"/>
-    <RBanner jhonData={jhonData} bClass="banner_shap_two" imag="man.jpg" textLeft="text-left"/>
+    <RBanner jhonData={jhonData} bClass="banner_shap" imag="banner-background.jpg" textLeft="text-left"/>
     <About aClass="about_area" jhonData={jhonData}/>
     <Service wClass="work_area" jhonData={jhonData}/>
     <Portfolio/>

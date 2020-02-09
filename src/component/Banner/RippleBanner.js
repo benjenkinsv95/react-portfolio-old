@@ -8,7 +8,7 @@ class Banner extends Component {
         let {bClass, textLeft, imag}= this.props;
         return(
             <section id="home" >
-                 <WaterWave strength={500} className={`banner_area ${bClass}`} style={{ width: '100%', height: '100%', backgroundSize: 'cover' }} imageUrl={require ("../../image/" + imag)}>
+                 <WaterWave strength={1} interactive={false} className={`banner_area ${bClass}`} style={{ width: '100%', height: '100%', backgroundSize: 'cover' }} imageUrl={require ("../../image/" + imag)}>
                         {({ getRootProps}) => (
                              <div className="container">
                                 <div className={`banner_content ${textLeft}`}>
@@ -19,14 +19,14 @@ class Banner extends Component {
                                         <h2 className="wow fadeInLeft animated">I am {jhonData.name}</h2>
                                     </Reveal>
                                     <Reveal effect="fadeInUp" duration={2200}>
-                                        <h4 className="wow fadeInUp anoimated">Visual Designer & Front-end Developer</h4>
+                                        <h4 className="wow fadeInUp anoimated">Software Engineer & Educator</h4>
                                     </Reveal>
                                     <ul className="list_style social_icon">
                                     {
                                         jhonData.socialLinks && jhonData.socialLinks.map(item =>{
                                         return(
                                                 <li key={item.name}>
-                                                <a  href={item.url}><i className={item.className}></i></a> 
+                                                <a  href={item.url}><i className={item.className}></i></a>
                                                 </li>
                                                 )
                                             }
