@@ -13,7 +13,7 @@ class Navbar extends Component{
                             <img src={require ("../../image/" + mainlogo)} alt=""/>
                             <img src={require ("../../image/" + stickylogo)} alt=""/>
                         </a>
-                        <a href="./" className="btn get-btn get-btn-two d-lg-none d-md-block login">Login</a>
+                        {/* <a href="./" className="btn get-btn get-btn-two d-lg-none d-md-block login">Login</a> */}
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="icon-bar"></span>
                             <span className="icon-bar"></span>
@@ -29,7 +29,7 @@ class Navbar extends Component{
                                         About
                                     </Link>
                                 </li>
-                                <li className="nav-item">
+                                {/* <li className="nav-item">
                                     <Link className="nav-link" activeClass="active" to="service" spy={true} smooth={true} offset={-86} duration={500}>
                                         Service
                                     </Link>
@@ -53,15 +53,15 @@ class Navbar extends Component{
                                     <Link className="nav-link" activeClass="active" to="contact" spy={true} smooth={true} offset={-86} duration={500}>
                                         Contact
                                     </Link>
-                                </li>
+                                </li> */}
                             </ul>
-                            <ul className="nav navbar-nav navbar-right d-md-none d-lg-block">
+                            {/* <ul className="nav navbar-nav navbar-right d-md-none d-lg-block">
                                 <li className="nav-item">
                                     <a href="./" className="login">
                                         login
                                     </a>
                                 </li>
-                            </ul>
+                            </ul> */}
                         </div> 
                     </div>
                 </nav>

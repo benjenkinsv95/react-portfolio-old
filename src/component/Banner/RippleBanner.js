@@ -1,7 +1,9 @@
 import React, {Component} from 'react';
 import Reveal from 'react-reveal/Reveal/';
 import WaterWave from 'react-water-wave';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 class Banner extends Component {
     render(){
         let jhonData = this.props.jhonData;
@@ -13,7 +15,7 @@ class Banner extends Component {
                              <div className="container">
                                 <div className={`banner_content ${textLeft}`}>
                                     <Reveal effect="fadeInUp">
-                                        <h5>HELLO</h5>
+                                        <h5>Hello,</h5>
                                     </Reveal>
                                     <Reveal  effect="fadeInUp" duration={1500}>
                                         <h2 className="wow fadeInLeft animated">I am {jhonData.name}</h2>
@@ -22,16 +24,27 @@ class Banner extends Component {
                                         <h4 className="wow fadeInUp anoimated">Software Engineer & Educator</h4>
                                     </Reveal>
                                     <ul className="list_style social_icon">
-                                    {
-                                        jhonData.socialLinks && jhonData.socialLinks.map(item =>{
-                                        return(
-                                                <li key={item.name}>
-                                                <a  href={item.url}><i className={item.className}></i></a>
-                                                </li>
-                                                )
-                                            }
-                                        )
-                                    }
+                                    <li>
+                                        <a href="https://www.linkedin.com/in/benjenkinsv95/">
+                                            <i class="social_linkedin"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a  href='https://github.com/benjenkinsv95'>
+                                            <FontAwesomeIcon icon={faGithub} />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com/benjenkinsv95">
+                                            <i class="social_twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a  href="mailto:benjenkinsv95@gmail.com">
+                                            <FontAwesomeIcon icon={faEnvelope} />
+                                        </a>
+                                    </li>
+                                    
                                     </ul>
                                 </div>
                             </div>

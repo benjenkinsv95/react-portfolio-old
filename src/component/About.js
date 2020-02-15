@@ -15,15 +15,17 @@ class About extends Component {
                                 <div className="about_content">
                                     <h2 className="t_color">{jhonData.aboutme}</h2>
                                     <h6>{jhonData.role}</h6>
-                                    <p>{jhonData.aboutdetails}</p>
-                                    <Link to="/"  className="theme_btn active">Hire Me</Link>
-                                    <Link to="/" className="theme_btn">Download CV</Link>
+                                    {jhonData.aboutdetails.map(detail => (
+                                        <p>{detail}</p>
+                                    ))}
+                                    <a  href="mailto:benjenkinsv95@gmail.com" className="theme_btn active">Get in Touch</a>
+                                    <a className="theme_btn" href={require('../assets/resume.pdf')} download="ben-jenkins-resume.pdf">Download Resume</a>
                                 </div>
                             </Fade>
                         </div>
                         <div className="col-lg-5">
                             <div className="about_img">
-                                <Reveal effect="fadeInRight" duration={1500}><img src={require('../image/apporoach_man_img.png')} alt=""/></Reveal>
+                                <Reveal effect="fadeInRight" duration={1500}><img src={require('../image/profile_pic.jpg')} alt=""/></Reveal>
                             </div>
                         </div>
                     </div>

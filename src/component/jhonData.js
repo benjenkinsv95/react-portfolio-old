@@ -1,33 +1,27 @@
 const jhonData = {
     "name": "Ben Jenkins.",
-    "name2": "Richard Tea.",
-    "name3": "Alexa Benson",
-    "role": "Visual Designer & Front-End Developer,",
+    "name2": "Ben Jenkins.",
+    "name3": "Ben Jenkins.",
+    "role": "Software Engineer & Educator,",
     "ptext": "Creative Designer & Developer located in London.",
     "socialLinks":[
         {
-          "name": "Facebook",
-          "url": "http://www.linkedin.com/",
-          "className": "social_facebook"
+          "name": "linkedIN",
+          "url": "https://www.linkedin.com/in/benjenkinsv95/",
+          "className": "social_linkedin"
         },
         {
           "name":"twitter",
-          "url":"http://www.twitter.com/",
+          "url":"https://twitter.com/benjenkinsv95",
           "className":"social_twitter"
-        },
-        {
-          "name":"googleplus",
-          "url":"http://www.googleplus.com",
-          "className":"social_googleplus"
-        },
-        {
-            "name":"pinterest",
-            "url":"http://www.pinterest.com",
-            "className":"social_pinterest"
-          }
+        }
       ],
       "aboutme": "About Me",
-      "aboutdetails": "I am Jhone Jenkins Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever It has survived not only five centuries, but also the leap into electronic but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing",
+      "aboutdetails": [
+        "I'm a software engineering instructor at General Assembly. Each day I have the opportunity to teach new developers popular skills such as React and Express to land jobs as full-stack developers.",
+        "Prior to General Assembly I developed software for humanoid robots which delivered therapy lessons to children with Autism.",
+        "Alongside work, I completed a Masters in Software Engineering from Harvard Extension School and a BA in Computer Science from TESU."
+      ],
       "service":[
           {
             "id" : 1,

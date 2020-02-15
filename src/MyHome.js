@@ -17,13 +17,13 @@ export const MyHome = () => (
     <Navbar mainlogo="logo2.png" stickylogo="logo.png"/>
     <RBanner jhonData={jhonData} bClass="banner_shap" imag="banner-background.jpg" textLeft="text-left"/>
     <About aClass="about_area" jhonData={jhonData}/>
-    <Service wClass="work_area" jhonData={jhonData}/>
+    {/* <Service wClass="work_area" jhonData={jhonData}/>
     <Portfolio/>
     <Skill/>
     <Testimonial/>
     <Clientslogo/>
     <Blog/>
     <Contact jhonData={jhonData}/>
-    <Footer jhonData={jhonData}/>
+    <Footer jhonData={jhonData}/> */}
   </div>
 )
