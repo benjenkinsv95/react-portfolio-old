@@ -29,31 +29,22 @@ class Navbar extends Component{
                                         About
                                     </Link>
                                 </li>
-                                {/* <li className="nav-item">
-                                    <Link className="nav-link" activeClass="active" to="service" spy={true} smooth={true} offset={-86} duration={500}>
-                                        Service
-                                    </Link>
-                                </li>
                                 <li className="nav-item">
                                     <Link className="nav-link" activeClass="active" to="portfolio" spy={true} smooth={true} offset={-86} duration={500}>
                                         Portfolio
                                     </Link>
                                 </li>
-                                <li className="nav-item">
+                                {/* <li className="nav-item">
                                     <Link className="nav-link" activeClass="active" to="testimonial" spy={true} smooth={true} offset={-86} duration={500}>
                                         Testimonial
                                     </Link>
-                                </li>
-                                <li className="nav-item">
+                                </li> */}
+                                {/* <li className="nav-item">
                                     <Link className="nav-link" activeClass="active" to="blog" spy={true} smooth={true} offset={-86} duration={500}>
                                         Blog
                                     </Link>
-                                </li>
-                                <li className="nav-item">
-                                    <Link className="nav-link" activeClass="active" to="contact" spy={true} smooth={true} offset={-86} duration={500}>
-                                        Contact
-                                    </Link>
                                 </li> */}
+                
                             </ul>
                             {/* <ul className="nav navbar-nav navbar-right d-md-none d-lg-block">
                                 <li className="nav-item">

@@ -8,7 +8,7 @@ class portfolio extends Component {
       return(
         <section className={`portfolio_area ${pClass}`} id="portfolio">
             <div className="container">
-                <Sectiontitle Title="My Portfolio" TitleP="I love what I do. I take great pride in what I do."/>
+                <Sectiontitle Title="My Portfolio" TitleP="What I make."/>
                 <ItemGrid/>
             </div>
         </section>

@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import Isotope from 'isotope-layout/js/isotope';
 import ImagesLoaded from 'imagesloaded/imagesloaded';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 class ItemGrid extends Component {
 
@@ -44,91 +46,98 @@ class ItemGrid extends Component {
             <div>
             <ul className="list_style portfolio_menu text-center">
                 <li className={`${this.onActive('*')}`} data-wow-delay="0.1s" data-filter="*" onClick={() => {this.onFilterChange("*")}}>ALL</li>
-                <li className={`${this.onActive('web')}`} data-wow-delay="0.3s" data-filter="web" onClick={() => {this.onFilterChange("web")}}>Web Design</li>
-                <li className={`${this.onActive(`develop`)}`} data-wow-delay="0.6s" data-filter="develop" onClick={()=> {this.onFilterChange("develop")}}>Development</li>
-                <li className={`${this.onActive(`market`)}`} data-wow-delay="0.8s" data-filter="market" onClick={()=> {this.onFilterChange("market")}}>Marketing</li>
+                <li className={`${this.onActive('web')}`} data-wow-delay="0.3s" data-filter="web" onClick={() => {this.onFilterChange("web")}}>Web Development</li>
+                <li className={`${this.onActive(`extension`)}`} data-wow-delay="0.6s" data-filter="extension" onClick={()=> {this.onFilterChange("extension")}}>Chrome Extension</li>
+                <li className={`${this.onActive(`other`)}`} data-wow-delay="0.8s" data-filter="other" onClick={()=> {this.onFilterChange("other")}}>Other</li>
             </ul>	
 
             <div className="grid row">
-                <div className="col-md-3 col-sm-6 col-xs-12 grid-item tech develop">
+                <div className="col-md-3 col-sm-6 col-xs-12 grid-item web">
                     <div className="portfolio hover-style">
-                        <img src={require('../../image/portfolio/1.jpg')} alt=""/>
+                        <img src={require('../../image/portfolio/kanban-small.gif')} alt=""/>
                         <div className="item-img-overlay">
                             <div className="overlay-info text-center">
-                                <h6 className="sm-titl">WEB DESIGN</h6>
+                                <h6 className="sm-titl">React Kanban Board</h6>
                                 <div className="icons">
-                                    <a href=".#"><i className="icon_heart_alt"></i></a>
-                                    <a href=".#"><i className="icon-magnifying-glass"></i></a>
+                                    <a  href='https://github.com/benjenkinsv95/react-kanban-board'>
+                                        <FontAwesomeIcon icon={faGithub} />
+                                    </a>
+                                    <a href="https://benjenkinsv95.github.io/react-kanban-board/"><i className="icon-desktop"></i></a>
                                 </div>
                             </div>
                         </div>						
                     </div>
                 </div>
-                <div className="col-md-3 col-sm-6 col-xs-12 grid-item market web develop">
+                <div className="col-md-3 col-sm-6 col-xs-12 grid-item web extension">
                     <div className="portfolio hover-style">
-                    <img src={require('../../image/portfolio/2.jpg')} alt=""/>
+                    <img src={require('../../image/portfolio/need-that-small.gif')} alt=""/>
                         <div className="item-img-overlay">
                             <div className="overlay-info text-center">
-                                <h6 className="sm-titl">WEB DESIGN</h6>
+                                <h6 className="sm-titl">Do You Really Need That?</h6>
                                 <div className="icons">
-                                    <a href=".#"><i className="icon_heart_alt"></i></a>
-                                    <a href=".#"><i className="icon-magnifying-glass"></i></a>
+                                    <a  href='https://github.com/benjenkinsv95/do-you-really-need-that'>
+                                        <FontAwesomeIcon icon={faGithub} />
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>						
                 </div>
-                <div className="col-md-6 col-sm-6 col-xs-12 grid-item market develop">
+                <div className="col-md-6 col-sm-6 col-xs-12 grid-item other">
                     <div className="portfolio hover-style">
-                    <img src={require('../../image/portfolio/9.jpg')} alt=""/>
+                    <img src={require('../../image/portfolio/barliman-large.gif')} alt=""/>
                         <div className="item-img-overlay">
                             <div className="overlay-info text-center">
-                                <h6 className="sm-titl">WEB DESIGN</h6>
+                                <h6 className="sm-titl">Barliman iOS</h6>
                                 <div className="icons">
-                                    <a href=".#"><i className="icon_heart_alt"></i></a>
-                                    <a href=".#"><i className="icon-magnifying-glass"></i></a>
+                                    <a  href='https://github.com/benjenkinsv95/Barliman-iOS'>
+                                        <FontAwesomeIcon icon={faGithub} />
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className="col-md-6 col-sm-6 col-xs-12 grid-item web">
+                <div className="col-md-6 col-sm-6 col-xs-12 grid-item other">
                     <div className="portfolio hover-style">
-                        <img src={require('../../image/portfolio/10.jpg')} alt=""/>
+                        <img src={require('../../image/portfolio/zelda-large.gif')} alt=""/>
                         <div className="item-img-overlay">
                             <div className="overlay-info text-center">
-                                <h6 className="sm-titl">WEB DESIGN</h6>
+                                <h6 className="sm-titl">Legend of 50 RPG</h6>
                                 <div className="icons">
-                                    <a href=".#"><i className="icon_heart_alt"></i></a>
-                                    <a href=".#"><i className="icon-magnifying-glass"></i></a>
+                                    <a  href='https://github.com/benjenkinsv95/legend-of-50-rpg'>
+                                        <FontAwesomeIcon icon={faGithub} />
+                                    </a>
                                 </div>
                             </div>
                         </div>	
                     </div>
                 </div>
-                <div className="col-md-3 col-sm-6 col-xs-12 grid-item market web">
+                <div className="col-md-3 col-sm-6 col-xs-12 grid-item web extension">
                     <div className="portfolio hover-style">
-                        <img src={require('../../image/portfolio/3.jpg')} alt=""/>
+                        <img src={require('../../image/portfolio/sentimentsion-small.gif')} alt=""/>
                         <div className="item-img-overlay">
                             <div className="overlay-info text-center">
-                                <h6 className="sm-titl">WEB DESIGN</h6>
+                                <h6 className="sm-titl">Sentimentsion</h6>
                                 <div className="icons">
-                                    <a href=".#"><i className="icon_heart_alt"></i></a>
-                                    <a href=".#"><i className="icon-magnifying-glass"></i></a>
+                                    <a  href='https://github.com/benjenkinsv95/sentimentsion'>
+                                        <FontAwesomeIcon icon={faGithub} />
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className="col-md-3 col-sm-6 col-xs-12 grid-item develop">
+                <div className="col-md-3 col-sm-6 col-xs-12 grid-item other">
                     <div className="portfolio hover-style">
-                        <img src={require('../../image/portfolio/4.jpg')} alt=""/>
+                        <img src={require('../../image/portfolio/cs-history-small.gif')} alt=""/>
                         <div className="item-img-overlay">
                             <div className="overlay-info text-center">
-                                <h6 className="sm-titl">WEB DESIGN</h6>
+                                <h6 className="sm-titl">CS History Backgrounds</h6>
                                 <div className="icons">
-                                    <a href=".#"><i className="icon_heart_alt"></i></a>
-                                    <a href=".#"><i className="icon-magnifying-glass"></i></a>
+                                    <a  href='https://github.com/benjenkinsv95/cs-history'>
+                                        <FontAwesomeIcon icon={faGithub} />
+                                    </a>
                                 </div>
                             </div>
                         </div>
