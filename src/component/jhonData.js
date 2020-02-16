@@ -18,7 +18,7 @@ const jhonData = {
       ],
       "aboutme": "About Me",
       "aboutdetails": [
-        "I'm a software engineering instructor at General Assembly. Each day I have the opportunity to teach new developers popular skills such as React and Express to land jobs as full-stack developers.",
+        "I'm a software engineering instructor at General Assembly. Each day I have the opportunity to teach new developers the skills they need to land jobs as full-stack developers.",
         "Prior to General Assembly I developed software for humanoid robots which delivered therapy lessons to children with Autism.",
         "Alongside work, I completed a Masters in Software Engineering from Harvard Extension School and a BA in Computer Science from TESU."
       ],
@@ -26,38 +26,20 @@ const jhonData = {
           {
             "id" : 1,
             "iconName": "icon-desktop",
-            "serviceTitle": "Web Design",
-            "sDetails" : "There are many variations of pssages of Lorm available, bu in some form, Lorem Ipsum is simply dummy text."
+            "serviceTitle": "Software Development",
+            "sDetails" : "I love tinkering and building new things! My tools of choice are JavaScript, React, and Express."
           },
           {
             "id" : 2,
-            "iconName": "icon-pencil",
-            "serviceTitle": "Development",
-            "sDetails" : "There are many variations of pssages of Lorm available, bu in some form, Lorem Ipsum is simply dummy text."
+            "iconName": "icon-presentation",
+            "serviceTitle": "Teaching",
+            "sDetails" : "I've taught over 200 new developers taking General Assembly's 12-week Software Engineering bootcamp. 🍎"
           },
           {
             "id" : 3,
-            "iconName": "icon-presentation",
-            "serviceTitle": "Marketing",
-            "sDetails" : "There are many variations of pssages of Lorm available, bu in some form, Lorem Ipsum is simply dummy text."
-          },
-          {
-            "id" : 4,
-            "iconName": "icon-linegraph",
-            "serviceTitle": "Strategy",
-            "sDetails" : "There are many variations of pssages of Lorm available, bu in some form, Lorem Ipsum is simply dummy text."
-          },
-          {
-            "id" : 5,
-            "iconName": "icon-gears",
-            "serviceTitle": "Support",
-            "sDetails" : "There are many variations of pssages of Lorm available, bu in some form, Lorem Ipsum is simply dummy text."
-          },
-          {
-            "id" : 6,
-            "iconName": "icon-tools",
-            "serviceTitle": "We’re experienced",
-            "sDetails" : "There are many variations of pssages of Lorm available, bu in some form, Lorem Ipsum is simply dummy text."
+            "iconName": "icon-book-open",
+            "serviceTitle": "CS History",
+            "sDetails" : "I'm a Computer Science history buff! 🤓 I love reading CS papers and making CS history desktop wallpapers."
           }
       ],
       "contact":[
