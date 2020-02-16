@@ -14,7 +14,7 @@ import jhonData from './component/jhonData';
 
 export const MyHome = () => (
   <div className="body_wrapper">
-    <Navbar mainlogo="logo2.png" stickylogo="logo.png"/>
+    <Navbar mainlogo="logo_white.png" stickylogo="logo_blue.png"/>
     <RBanner jhonData={jhonData} bClass="banner_shap" imag="banner-background.jpg" textLeft="text-left"/>
     <About aClass="about_area" jhonData={jhonData}/>
     {/* <Service wClass="work_area" jhonData={jhonData}/>
