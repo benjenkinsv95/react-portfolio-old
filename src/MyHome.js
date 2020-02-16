@@ -22,8 +22,8 @@ export const MyHome = () => (
     <Skill/>
     <Testimonial/>
     <Clientslogo/>
-    <Blog/>
-    <Contact jhonData={jhonData}/>
-    <Footer jhonData={jhonData}/> */}
+    <Blog/> */}
+    {/* <Contact jhonData={jhonData}/> */}
+    <Footer jhonData={jhonData}/>
   </div>
 )
