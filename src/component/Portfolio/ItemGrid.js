@@ -143,6 +143,21 @@ class ItemGrid extends Component {
                         </div>
                     </div>
                 </div>
+                <div className="col-md-3 col-sm-6 col-xs-12 grid-item other">
+                    <div className="portfolio hover-style">
+                        <img src={require('../../image/portfolio/bitcube-small.gif')} alt=""/>
+                        <div className="item-img-overlay">
+                            <div className="overlay-info text-center">
+                                <h6 className="sm-titl">Bitcube Image Uploader</h6>
+                                <div className="icons">
+                                    <a  href='https://github.com/benjenkinsv95/bitcube-image-uploader'>
+                                        <FontAwesomeIcon icon={faGithub} />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             </div>
         )
