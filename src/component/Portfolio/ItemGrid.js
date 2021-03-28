@@ -7,7 +7,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 class ItemGrid extends Component {
 
     state = {
-        activeItem: 'other',
+        activeItem: "*",
     }
 
     componentDidMount() {
@@ -21,12 +21,12 @@ class ItemGrid extends Component {
 
 
         });
-        setTimeout(() => this.onFilterChange("*"), 500)
+        setTimeout(() => this.onFilterChange("*", true), 1000)
     }
-    onFilterChange = (newFilter) => {
+    onFilterChange = (newFilter, force = false) => {
 
         this.setState({activeItem: newFilter});
-        if (this.iso === undefined) {
+        if (this.iso === undefined || force) {
             this.iso = new Isotope('.grid', {
             itemSelector: '.grid-item',
             layoutMode: "masonry"
