@@ -912,6 +912,10 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 100%;
 }
 
+.portfolio video {
+  max-width: 100%;
+}
+
 .portfolio .item-img-overlay {
   position: absolute;
   top: 8px;
