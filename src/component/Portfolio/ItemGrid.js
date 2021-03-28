@@ -56,7 +56,7 @@ class ItemGrid extends Component {
             <div className="grid row">
                 <div className="col-md-3 col-sm-6 col-xs-12 grid-item web">
                     <div className="portfolio hover-style">
-                        <video autoPlay loop muted playsInline>
+                        <video className='small-video' autoPlay loop muted playsInline>
                           <source src={require('../../image/portfolio/kanban-small.mp4')} type="video/mp4"/>
                         </video>
                         <div className="item-img-overlay">
@@ -74,7 +74,7 @@ class ItemGrid extends Component {
                 </div>
                 <div className="col-md-3 col-sm-6 col-xs-12 grid-item web extension">
                     <div className="portfolio hover-style">
-                    <video autoPlay loop muted playsInline>
+                    <video className='small-video' autoPlay loop muted playsInline>
                           <source src={require('../../image/portfolio/need-that-small.mp4')} type="video/mp4"/>
                         </video>
                         <div className="item-img-overlay">
@@ -91,7 +91,7 @@ class ItemGrid extends Component {
                 </div>
                 <div className="col-md-6 col-sm-6 col-xs-12 grid-item other">
                     <div className="portfolio hover-style">
-                    <video autoPlay loop muted playsInline>
+                    <video className='large-video' autoPlay loop muted playsInline>
                       <source src={require('../../image/portfolio/barliman-large.mp4')} type="video/mp4"/>
                     </video>
                         <div className="item-img-overlay">
@@ -108,7 +108,7 @@ class ItemGrid extends Component {
                 </div>
                 <div className="col-md-6 col-sm-6 col-xs-12 grid-item other">
                     <div className="portfolio hover-style">
-                    <video autoPlay loop muted playsInline>
+                    <video className='large-video' autoPlay loop muted playsInline>
                       <source src={require('../../image/portfolio/zelda-large.mp4')} type="video/mp4"/>
                     </video>
                         <div className="item-img-overlay">
@@ -125,7 +125,7 @@ class ItemGrid extends Component {
                 </div>
                 <div className="col-md-3 col-sm-6 col-xs-12 grid-item web extension">
                     <div className="portfolio hover-style">
-                    <video autoPlay loop muted playsInline>
+                    <video className='small-video' autoPlay loop muted playsInline>
                       <source src={require('../../image/portfolio/sentimentsion-small.mp4')} type="video/mp4"/>
                     </video>
                         <div className="item-img-overlay">
@@ -142,7 +142,7 @@ class ItemGrid extends Component {
                 </div>
                 <div className="col-md-3 col-sm-6 col-xs-12 grid-item other">
                     <div className="portfolio hover-style">
-                    <video autoPlay loop muted playsInline>
+                    <video className='small-video' autoPlay loop muted playsInline>
                       <source src={require('../../image/portfolio/cs-history-small.mp4')} type="video/mp4"/>
                     </video>
                         <div className="item-img-overlay">
@@ -159,7 +159,7 @@ class ItemGrid extends Component {
                 </div>
                 <div className="col-md-3 col-sm-6 col-xs-12 grid-item other">
                     <div className="portfolio hover-style">
-                    <video autoPlay loop muted playsInline>
+                    <video className='small-video' autoPlay loop muted playsInline>
                       <source src={require('../../image/portfolio/bitcube-small.mp4')} type="video/mp4"/>
                     </video>
                         <div className="item-img-overlay">
