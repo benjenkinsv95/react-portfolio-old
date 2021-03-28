@@ -916,12 +916,12 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 100%;
 }
 
-.small_video {
+.small-video {
   min-height: 338px;
   min-width: 284px;
 }
 
-.large_video {
+.large-video {
   min-height: 390px;
   min-width: 330px;
 }
